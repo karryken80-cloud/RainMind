@@ -1,0 +1,4 @@
+interface:
+  display_name: "RainMind Teacher"
+  short_description: "按目标期刊标准审稿并出修订清单"
+  default_prompt: "使用 $rainmind-teacher 扮演审稿人审阅稿件并给出修订清单。"

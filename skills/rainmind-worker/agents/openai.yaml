@@ -1,0 +1,4 @@
+interface:
+  display_name: "RainMind Worker"
+  short_description: "生成并运行 Python 实验、出版级图和报告"
+  default_prompt: "使用 $rainmind-worker 基于数据与实验方案生成并运行 Python 实验，并按 nature-figure 规范产出出版级图和报告。"

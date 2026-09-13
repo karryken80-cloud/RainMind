@@ -1,0 +1,4 @@
+interface:
+  display_name: "RainMind Study"
+  short_description: "大气科学文献调研与询问式研究计划"
+  default_prompt: "使用 $rainmind-study 从大气科学问题出发做文献调研并制定研究计划。"

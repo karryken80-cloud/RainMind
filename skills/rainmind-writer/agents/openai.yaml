@@ -1,0 +1,4 @@
+interface:
+  display_name: "RainMind Writer"
+  short_description: "按期刊要求生成 Word 中文论文初稿"
+  default_prompt: "使用 $rainmind-writer 按目标期刊要求生成可编辑的 Word 中文论文初稿，并完成图表和版式检查。"

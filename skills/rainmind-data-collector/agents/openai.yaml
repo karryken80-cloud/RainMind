@@ -1,0 +1,4 @@
+interface:
+  display_name: "RainMind Data Collector"
+  short_description: "采集 ERA5/GNSS/CMIP6 数据并记录来源清单"
+  default_prompt: "使用 $rainmind-data-collector 按研究计划采集并整理数据。"

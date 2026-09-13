@@ -1,0 +1,4 @@
+interface:
+  display_name: "RainMind Research"
+  short_description: "大气科学研究流水线双模式总控"
+  default_prompt: "使用 $rainmind-research；默认分段执行，用户明确说自动/端到端时可自动编排完整流水线。"

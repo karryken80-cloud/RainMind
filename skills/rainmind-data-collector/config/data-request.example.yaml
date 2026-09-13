@@ -1,0 +1,33 @@
+# 复制为 data-request.yaml，按研究计划填写
+era5:
+  dataset: reanalysis-era5-single-levels
+  requests:
+    - name: tp_2024_mlr
+      product_type: reanalysis
+      variable: [total_precipitation]
+      year: ["2024"]
+      month: ["06", "07"]
+      day: ["01"]
+      time: ["00:00", "01:00"]
+      area: [34, 110, 28, 122]
+      format: netcdf
+
+gnss_cds:
+  dataset: insitu-observations-gnss
+  requests:
+    - name: BJFS_gnss
+      # 以下参数从 CDS 数据集页 Show API request 复制
+      variable: ["zenith_total_delay"]
+      year: ["2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"]
+
+gnss:
+  base_template: "https://cddis.nasa.gov/archive/gps/products/troposphere/zpd/{year}/{doy}/usno{doy}.{year:02d}zpd.gz"
+  stations: ["BJFS"]
+  year: 2024
+  start_doy: 152
+  end_doy: 213
+
+cmip6:
+  requests:
+    - {experiment: hist-nat, variable: pr, table: day, grid_label: gn}
+    - {experiment: historical, variable: pr, table: day, grid_label: gn}
